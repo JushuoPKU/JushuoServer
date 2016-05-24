@@ -17,7 +17,7 @@ public class Test {
         CNFactory factory = CNFactory.getInstance(path);
 
         // 使用分词器对中文句子进行分词，得到分词结果
-        String input="ARM今天正式宣布，他们和台积电联手研发的10nm工艺的芯片已经完成，这亦成为了全球第一块基于10nm工艺的芯片。其实这块芯片应该在2015年的12月的时候就要完成，不过拖了这么久也就说明了10nm工艺具有一定的研发难度。而这块芯片如无意外应该使用ARM尚未宣布的旗舰级架构，代号“Artemis”";
+        String input="NVIDIA最近发布了Pascal架构的Tesla P100加速卡及GTX 1080显卡，强大的性能让人折服，不过同样强大的价格也让人感慨NVIDIA这日子也过得太舒服了，这是欺负AMD没有高端卡发布啊！不过AMD虽然低调，但绝对是闷声发大财，其显卡市场份额已经止损并开始回升，移动显卡市场份额涨了7.3个百分点，桌面独显份额也回升1.8个百分点。";
         String[] words = factory.seg(input);
 
         // 打印分词结果
