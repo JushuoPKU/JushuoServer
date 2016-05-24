@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="server">
+    <output-path>$PROJECT_DIR$/pack</output-path>
+    <root id="archive" name="server.jar">
+      <element id="library" level="project" name="asm-4.0" />
+      <element id="library" level="project" name="commons-codec-1.9" />
+      <element id="library" level="project" name="fnlp-core-2.1-SNAPSHOT" />
+      <element id="library" level="project" name="fnlp-dev-2.1-SNAPSHOT" />
+      <element id="library" level="project" name="json-20160212" />
+      <element id="library" level="project" name="mysql-connector-java-5.1.6-bin" />
+      <element id="library" level="project" name="trove4j-3.0.3 (1)" />
+    </root>
+  </artifact>
+</component>
