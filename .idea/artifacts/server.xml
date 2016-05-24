@@ -1,14 +1,55 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="server">
     <output-path>$PROJECT_DIR$/pack</output-path>
-    <root id="archive" name="server.jar">
-      <element id="library" level="project" name="asm-4.0" />
-      <element id="library" level="project" name="commons-codec-1.9" />
-      <element id="library" level="project" name="fnlp-core-2.1-SNAPSHOT" />
-      <element id="library" level="project" name="fnlp-dev-2.1-SNAPSHOT" />
-      <element id="library" level="project" name="json-20160212" />
-      <element id="library" level="project" name="mysql-connector-java-5.1.6-bin" />
-      <element id="library" level="project" name="trove4j-3.0.3 (1)" />
+    <root id="archive" name="JushuoServer.jar">
+      <element id="module-output" name="JushuoServer" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/apache-http-lib/commons-codec-1.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/apache-http-lib/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/apache-http-lib/fluent-hc-4.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/apache-http-lib/httpclient-4.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/apache-http-lib/httpclient-cache-4.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/apache-http-lib/httpclient-win-4.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/apache-http-lib/httpcore-4.4.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/apache-http-lib/httpmime-4.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/apache-http-lib/jna-4.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/apache-http-lib/jna-platform-4.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/asm-4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/carbonite-1.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/chill-java-0.3.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/clojure-1.5.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/commons-codec-1.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/commons-exec-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/commons-fileupload-1.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/commons-io-2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/commons-lang-2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/commons-logging-1.1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/disruptor-2.10.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/jetty-6.1.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/jetty-util-6.1.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/jgrapht-core-0.9.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/jline-2.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/joda-time-2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/json-simple-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/kryo-2.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/log4j-over-slf4j-1.6.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/logback-classic-1.0.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/logback-core-1.0.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/minlog-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/objenesis-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/reflectasm-1.07-shaded.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/servlet-api-2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/slf4j-api-1.7.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/snakeyaml-1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/storm/storm-core-0.9.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/fundannlp/trove4j-3.0.3 (1).jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/fundannlp/commons-cli-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/fundannlp/fnlp-core-2.1-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/fundannlp/fnlp-dev-2.1-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/fundannlp/fnlp-train-2.1-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/fundannlp/fnlp-app-2.1-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql/mysql-connector-java-5.1.6-bin.jar" path-in-jar="/" />
+      <element id="library" level="project" name="json-jena-1.0" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json/json-20160212.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
