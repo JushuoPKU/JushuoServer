@@ -11,6 +11,7 @@ import java.util.Map;
  * Created by MebiuW on 16/5/19.
  */
 public class Test {
+
     public static void main(String args[]) throws  Exception{
         // 创建中文处理工厂对象，并使用“models”目录下的模型文件初始化
         String path="/Users/MebiuW/Documents/Doing/PKU/JushuoServer/lib/fundannlp/models";
