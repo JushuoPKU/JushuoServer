@@ -22,6 +22,7 @@ public class Tester {
     public static void videoworkerTest(){
         String file = "~/video/a6300.mp4";
         String tid = "23423423";
+        
         //将文件下载,并按照tid保存到零时目录下
         RuntimeWorker.execute("cd ~/server/raws");
         //调用查询视频的长度信息
